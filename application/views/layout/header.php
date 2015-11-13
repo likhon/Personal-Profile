@@ -51,7 +51,7 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="index.html"><img src="<?php echo base_url(); ?>assets/images/logo.png" alt=""></a>
+                            <a class="navbar-brand" href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>assets/images/logo.png" alt=""></a>
                         </div>
 
                         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -60,18 +60,18 @@
                                 <li><a class="active" href="<?php echo base_url(); ?>">Home</a></li>
                                 <li><a href="<?php echo base_url(); ?>pages/about">About</a></li>
                                 <li><a href="<?php echo base_url(); ?>projects">Projects</a></li>
-                                <li><a href="services.html">Our Services</a>
-                                    <ul class="drop-down">
-                                        <li><a href="buildings.html">Small &amp; Large Buildings</a></li>
-                                        <li><a href="garden.html">Elegant Garden</a></li>
-                                        <li><a href="projecting.html">Perfect Projectings</a></li>
-                                        <li><a href="energy.html">Energy Repair</a></li>
-                                        <li><a href="roads.html">Roads &amp; Paths</a></li>
-                                        <li><a href="repairing.html">Repairing &amp; Maintenance</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="blog.html">blog</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+<!--                                <li><a href="services.html">Our Services</a>-->
+<!--                                    <ul class="drop-down">-->
+<!--                                        <li><a href="buildings.html">Small &amp; Large Buildings</a></li>-->
+<!--                                        <li><a href="garden.html">Elegant Garden</a></li>-->
+<!--                                        <li><a href="projecting.html">Perfect Projectings</a></li>-->
+<!--                                        <li><a href="energy.html">Energy Repair</a></li>-->
+<!--                                        <li><a href="roads.html">Roads &amp; Paths</a></li>-->
+<!--                                        <li><a href="repairing.html">Repairing &amp; Maintenance</a></li>-->
+<!--                                    </ul>-->
+<!--                                </li>-->
+                                <li><a href="<?php echo base_url(); ?>posts"">blog</a></li>
+                                <li><a href="<?php echo base_url(); ?>pages/contact">Contact</a></li>
                             </ul>
                         </div><!-- /.navbar-collapse -->
                     </div><!-- /.container-fluid -->

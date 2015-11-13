@@ -40,12 +40,10 @@
                             <div class="col-md-3">
                                 <div class="widgets info-widget">
                                     <h2>Working Hours</h2>
-                                    <p class="first-par">You can contact or visit us during working time.</p>
+                                    <p class="first-par">You can also follow on social network.</p>
                                     <p><span>Tel: </span> 1234 - 5678 - 9012</p>
                                     <p><span>Email: </span> nunforest@gmail.com</p>
-                                    <p><span>Working Hours: </span> 8:00 a.m - 17:00 a.m</p>
-                                </div>
-
+                                    <!--                                    <p><span>Working Hours: </span> 8:00 a.m - 17:00 a.m</p>-->
                                     <ul class="social-icons">
                                         <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
                                         <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
@@ -54,6 +52,7 @@
                                         <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
                                         <li><a class="pinterest" href="#"><i class="fa fa-pinterest"></i></a></li>
                                     </ul>
+                                </div>
 
 
                             </div>
@@ -72,24 +71,20 @@
         </div>
         <!-- End Container -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-
-
-            <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.migrate.js"></script>
-            <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.bxslider.min.js"></script>
-            <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.isotope.min.js"></script>
-            <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.imagesloaded.min.js"></script>
-            <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/owl.carousel.min.js"></script>
-            <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
-
-            <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/retina-1.1.0.min.js"></script>
-
-
-            <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
-            <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.themepunch.tools.min.js"></script>
-            <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.themepunch.revolution.min.js"></script>
-            <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
-            <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/gmap3.min.js"></script>
-            <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/script.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.migrate.js"></script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.bxslider.min.js"></script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.isotope.min.js"></script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.imagesloaded.min.js"></script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/retina-1.1.0.min.js"></script>
+        <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
+        <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.themepunch.tools.min.js"></script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.themepunch.revolution.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/gmap3.min.js"></script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/script.js"></script>
         <?php
 //            $JsDirectory = $this->utility->fileLocation('assets/js');
 //            foreach (glob("$JsDirectory/*") as $file) {

@@ -110,7 +110,7 @@ website:    http://www.themepunch.com
   text-transform: uppercase;
   margin: 0;
   color: #333333 !important;
-  padding: 15px 15px;
+  padding: 4px 15px;
   letter-spacing: 2.5px;
   z-index: 99999;
 }
@@ -177,8 +177,9 @@ website:    http://www.themepunch.com
 }
 ul.social-icons {
   margin: 0;
-  padding: 0;
-  text-align: right;
+  padding-top: 12px;
+    padding-left: 0px;
+  /*text-align: right;*/
 }
 ul.social-icons li {
   display: inline-block;
@@ -191,7 +192,7 @@ ul.social-icons li a {
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
-  font-size: 13px;
+  font-size: 30px;
   color: #ffffff;
 }
 ul.social-icons li a:hover {

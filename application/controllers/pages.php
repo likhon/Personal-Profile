@@ -14,4 +14,9 @@ class pages extends MY_Controller {
     $this->middle = 'pages/about'; // passing middle to function. change this for different views.
     $this->layout();
   }
+    public function contact() {
+
+        $this->middle = 'pages/contact'; // passing middle to function. change this for different views.
+        $this->layout();
+    }
 }
