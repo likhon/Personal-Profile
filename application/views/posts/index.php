@@ -3,77 +3,31 @@
 			================================================== -->
 
 
-<?php foreach ($posts as $post): ?>
-
-    <h3><?php echo $post['title']; ?></h3>
-    <div class="main">
-        <?php echo $post['post']; ?>
-    </div>
-    <p><a href="<?php echo site_url('posts/' . $post['postID']); ?>">View article</a></p>
-
-<?php endforeach; ?>
 
 <section class="blog-section">
     <div class="container">
         <div class="row">
             <div class="col-md-8">
                 <div class="blog-box">
+                    <?php foreach ($posts as $post): ?>
 
-                    <div class="blog-post">
-                        <img src="<?php echo base_url(); ?>assets/upload/blog/1.jpg" alt="">
-                        <div class="post-content-text">
-                            <h2><a href="single-post.html">Donec odio. Quisque volutpat mattis eros.</a></h2>
-                            <span>22 Jannuary 2015</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat.</p>
-                            <a href="single-post.html">Read More <i class="fa fa-angle-right"></i></a>
+                        <div class="blog-post">
+                            <img src="<?php echo base_url(); ?><?php echo $post['post_banner']; ?>" alt="">
+                            <div class="post-content-text">
+                                <h2><a href="single-post.html"><?php echo $post['title']; ?></a></h2>
+                                <span><?php echo $post['post_date']; ?></span>
+                                <p><?php echo $post['post']; ?></p>
+                                <a href="single-post.html">Read More <i class="fa fa-angle-right"></i></a>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="blog-post">
-                        <img src="<?php echo base_url(); ?>assets/upload/blog/2.jpg" alt="">
-                        <div class="post-content-text">
-                            <h2><a href="single-post.html">Donec odio. Quisque volutpat mattis eros.</a></h2>
-                            <span>22 Jannuary 2015</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat.</p>
-                            <a href="single-post.html">Read More <i class="fa fa-angle-right"></i></a>
-                        </div>
-                    </div>
+                    <?php endforeach; ?>
 
-                    <div class="blog-post">
-                        <!-- youtube -->
-                        <iframe class="videoembed" src="https://www.youtube.com/embed/w5guZZQZhR8" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" data-devanime="fadeIn" data-devanime-delay="0.6s"></iframe>
-                        <!-- End youtube -->
-                        <div class="post-content-text">
-                            <h2><a href="single-post.html">Post with youtube iframe.</a></h2>
-                            <span>22 Jannuary 2015</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat.</p>
-                            <a href="single-post.html">Read More <i class="fa fa-angle-right"></i></a>
-                        </div>
-                    </div>
 
-                    <div class="blog-post">
-                        <!-- Vimeo -->
-                        <iframe class="videoembed" src="http://player.vimeo.com/video/19968442?title=0&amp;byline=0&amp;portrait=0" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
-                        <!-- End Vimeo -->
-                        <div class="post-content-text">
-                            <h2><a href="single-post.html">Post with vimeo iframe.</a></h2>
-                            <span>22 Jannuary 2015</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat.</p>
-                            <a href="single-post.html">Read More <i class="fa fa-angle-right"></i></a>
-                        </div>
-                    </div>
+
+
+
+
 
                     <ul class="pagination-list">
                         <li><a href="#" class="prev-pag">prev</a></li>

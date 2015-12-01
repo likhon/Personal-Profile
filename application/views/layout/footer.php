@@ -1,3 +1,62 @@
+</div>
+
+<!--Sidebar-->
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 padding_right_0">
+    <aside class="sidebar">
+
+        <!-- Search Form -->
+        <div class="widget search-form">
+
+            <form id="contact-form">
+                <div class="input-group">
+
+                    <input type="text" class="form-control" placeholder="Search for...">
+                    <span class="input-group-btn">
+                       <button class="btn btn-custom" type="button">Go!</button>
+                    </span>
+                </div>
+            </form>
+
+        </div>
+
+        <!-- Popular Categories -->
+        <div class="widget popular-categories wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+            <div class="sidebar-title"><h2 class="margin_top_0">Popular Categories</h2></div>
+
+            <ul class="list">
+                <li><span class="icon fa fa-angle-right"></span> <a href="#">Civil &amp; Family Insdurance</a></li>
+                <li><span class="icon fa fa-angle-right"></span> <a href="#">Laws &amp; Rights</a></li>
+                <li><span class="icon fa fa-angle-right"></span> <a href="#">Financial Secure</a></li>
+                <li><span class="icon fa fa-angle-right"></span> <a href="#">Estate Insurance</a></li>
+                <li><span class="icon fa fa-angle-right"></span> <a href="#">Marketplace Insurance</a></li>
+            </ul>
+
+        </div>
+
+
+
+        <!-- Popular Tags -->
+        <div class="widgets">
+            <div class="sidebar-title"><h2>Popular Tags</h2></div>
+            <ul class="tag-list">
+                <li><a href="#">Contracts</a></li>
+                <li><a href="#">Trends</a></li>
+                <li><a href="#">Security</a></li>
+                <li><a href="#">Store</a></li>
+                <li><a href="#">Safe</a></li>
+                <li><a href="#">Top</a></li>
+                <li><a href="#">Shirt</a></li>
+                <li><a href="#">Secure</a></li>
+                <li><a href="#">Insurance</a></li>
+                <li><a href="#">Payments</a></li>
+            </ul>
+        </div>
+    </aside>
+
+
+</div>
+<!--Sidebar-->
+</div> <!-- End of container/main div-->
             <footer>
                 <div class="container">
                     <div class="footer-widgets">
@@ -71,20 +130,21 @@
         </div>
         <!-- End Container -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
-        <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.migrate.js"></script>
-        <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.bxslider.min.js"></script>
-        <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.isotope.min.js"></script>
-        <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.imagesloaded.min.js"></script>
-        <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/owl.carousel.min.js"></script>
+<!--            <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>-->
+<!--        <script type="text/javascript" src="--><?php //echo base_url(); ?><!--assets/js/jquery.migrate.js"></script>-->
+<!--        <script type="text/javascript" src="--><?php //echo base_url(); ?><!--assets/js/jquery.bxslider.min.js"></script>-->
+<!--        <script type="text/javascript" src="--><?php //echo base_url(); ?><!--assets/js/jquery.isotope.min.js"></script>-->
+<!--        <script type="text/javascript" src="--><?php //echo base_url(); ?><!--assets/js/jquery.imagesloaded.min.js"></script>-->
+<!--        <script type="text/javascript" src="--><?php //echo base_url(); ?><!--assets/js/owl.carousel.min.js"></script>-->
         <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/retina-1.1.0.min.js"></script>
         <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
-        <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.themepunch.tools.min.js"></script>
-        <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.themepunch.revolution.min.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
-        <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/gmap3.min.js"></script>
-        <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/script.js"></script>
+<!--        <script type="text/javascript" src="--><?php //echo base_url(); ?><!--assets/js/jquery.themepunch.tools.min.js"></script>-->
+<!--        <script type="text/javascript" src="--><?php //echo base_url(); ?><!--assets/js/jquery.themepunch.revolution.min.js"></script>-->
+<!--        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>-->
+<!--        <script type="text/javascript" src="--><?php //echo base_url(); ?><!--assets/js/gmap3.min.js"></script>-->
+<!--        <script type="text/javascript" src="--><?php //echo base_url(); ?><!--assets/js/script.js"></script>-->
+        <script type="text/javascript" src="<?php echo base_url(); ?>assets/ckeditor/ckeditor.js"></script>
         <?php
 //            $JsDirectory = $this->utility->fileLocation('assets/js');
 //            foreach (glob("$JsDirectory/*") as $file) {

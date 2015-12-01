@@ -56,13 +56,10 @@ $route['projects/create'] = 'projects/create';
 $route['projects/(:any)'] = 'projects/view/$1';
 $route['projects'] = 'projects';
 
-$route['posts/create'] = 'posts/create';
+$route['posts/add'] = 'posts/add';
 $route['posts/(:any)'] = 'posts/view/$1';
 $route['posts'] = 'posts';
 
-$route['news/create'] = 'news/create';
-$route['news/(:any)'] = 'news/view/$1';
-$route['news'] = 'news';
 $route['(:any)'] = 'pages/view/$1';
 $route['default_controller'] = 'welcome';
 

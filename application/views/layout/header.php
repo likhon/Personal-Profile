@@ -7,33 +7,14 @@
 
         <link href='http://fonts.googleapis.com/css?family=Montserrat:300,400,700' rel='stylesheet' type='text/css'>
         <link href="<?php echo base_url(); ?>assets/css/font-awesome.css" rel="stylesheet">
-
-
-
-
         <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/bootstrap.min.css" media="screen">
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/jquery.bxslider.css" media="screen">
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/owl.carousel.css" media="screen">
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/owl.theme.css" media="screen">
+<!--        <link rel="stylesheet" type="text/css" href="--><?php //echo base_url(); ?><!--assets/css/jquery.bxslider.css" media="screen">-->
+<!--        <link rel="stylesheet" type="text/css" href="--><?php //echo base_url(); ?><!--assets/css/owl.carousel.css" media="screen">-->
+<!--        <link rel="stylesheet" type="text/css" href="--><?php //echo base_url(); ?><!--assets/css/owl.theme.css" media="screen">-->
         <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/font-awesome.css" media="screen">
         <!-- REVOLUTION BANNER CSS SETTINGS -->
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/settings.css" media="screen"/>
+<!--        <link rel="stylesheet" type="text/css" href="--><?php //echo base_url(); ?><!--assets/css/settings.css" media="screen"/>-->
         <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/style.css" media="screen">
-
-
-
-
-
-
-
-        <?php
-//            $CssDirectory = $this->utility->fileLocation('assets/css');
-//            foreach (glob("$CssDirectory/*") as $file) {
-//                $basename = basename($file, ".css");
-//                echo link_tag($file);
-//            }
-        ?>
-
     </head>
     <body>
         <!-- Container -->
@@ -60,16 +41,6 @@
                                 <li><a class="active" href="<?php echo base_url(); ?>">Home</a></li>
                                 <li><a href="<?php echo base_url(); ?>pages/about">About</a></li>
                                 <li><a href="<?php echo base_url(); ?>projects">Projects</a></li>
-<!--                                <li><a href="services.html">Our Services</a>-->
-<!--                                    <ul class="drop-down">-->
-<!--                                        <li><a href="buildings.html">Small &amp; Large Buildings</a></li>-->
-<!--                                        <li><a href="garden.html">Elegant Garden</a></li>-->
-<!--                                        <li><a href="projecting.html">Perfect Projectings</a></li>-->
-<!--                                        <li><a href="energy.html">Energy Repair</a></li>-->
-<!--                                        <li><a href="roads.html">Roads &amp; Paths</a></li>-->
-<!--                                        <li><a href="repairing.html">Repairing &amp; Maintenance</a></li>-->
-<!--                                    </ul>-->
-<!--                                </li>-->
                                 <li><a href="<?php echo base_url(); ?>posts"">blog</a></li>
                                 <li><a href="<?php echo base_url(); ?>pages/contact">Contact</a></li>
                             </ul>
@@ -78,3 +49,6 @@
                 </nav>
             </header>
             <!-- End Header -->
+            <div class="container">
+
+                <div class="col-lg-9 col-md-8 col-sm-6 col-xs-12 padding_left_0">

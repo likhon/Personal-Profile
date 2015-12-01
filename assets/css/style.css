@@ -137,7 +137,7 @@ website:    http://www.themepunch.com
 }
 .navbar-nav > li > a:hover,
 .navbar-nav > li > a.active {
-  color: #333333 !important;
+  color: #769704 !important;
 }
 .navbar-nav li.drop {
   position: relative;
@@ -485,24 +485,27 @@ p {
   color: #ffffff;
 }
 section.services-section {
-  padding: 60px 0 20px;
+  padding: 20px 0 20px;
+}
+.services-box{
+    /*padding-right: 300px;*/
 }
 section.services-section .services-box .services-post {
   margin-bottom: 40px;
 }
 section.services-section .services-box .services-post img {
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 section.services-section .services-box .services-post .services-content {
   padding-right: 10px;
 }
 section.services-section .services-box .services-post .services-content h2 {
-  color: #333333;
-  font-size: 15px;
+  color: #769704;
+  font-size: 20px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  margin: 0 0 15px;
+  margin: 0 0 10px;
 }
 section.services-section .services-box .services-post .services-content a {
   display: inline-block;
@@ -1516,17 +1519,19 @@ section.services-section .services-box .services-post .services-content a:hover 
   padding-left: 120px;
 }
 .sidebar h2 {
-  color: #333333;
+  color: #769704;
   font-size: 15px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   margin: 0 0 15px;
   text-transform: uppercase;
   font-size: 16px;
-  margin-bottom: 25px;
+    margin-bottom: 10px;
+    margin-top: 30px;
 }
 .sidebar .widget {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  padding-top: 20px;
 }
 .sidebar ul.category-list,
 .sidebar ul.archieve-list {
@@ -1705,7 +1710,7 @@ section.services-section .services-box .services-post .services-content a:hover 
   width: 100%;
   padding: 10px 20px;
   border: 1px solid #dedede;
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
   outline: none;
   transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -1769,13 +1774,13 @@ section.services-section .services-box .services-post .services-content a:hover 
 /*-------------------------------------------------*/
 footer {
   background: #252525;
-  padding-top: 80px;
+  padding-top: 20px;
 }
 footer .footer-widgets {
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 footer .footer-widgets .widgets {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 footer .footer-widgets .widgets ul.tag-list {
   margin: 0;
@@ -1849,7 +1854,7 @@ footer h2 {
   color: #ffffff;
   font-size: 15px;
   margin-bottom: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 5px;
   font-weight: 400;
   position: relative;
 }
@@ -1875,6 +1880,102 @@ footer p {
   font-size: 12px;
   color: #ffffff;
 }
+
+/*---------------------------------------CUSTOM CSS START-----------------------------------*/
+.padding_right_0{
+    padding-right: 0!important;
+}
+.padding_left_0{
+    padding-left: 0!important;
+}
+.margin_top_0{
+    margin-top: 0!important;
+}
+aside .widgets ul.tag-list li {
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-right: 1px;
+}
+
+aside ul li{
+    list-style: none;
+}
+aside ul.list{
+    padding-left: 10px;
+}
+aside ul.list a{
+    color: #333333;
+
+}
+aside ul.list a:hover{
+    color: #769704;
+    font-weight: bold;
+}
+aside ul.list li:hover{
+    margin-left: 4px ;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+aside .widgets ul.tag-list li a {
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 6px 12px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    background: #333333;
+}
+aside .widgets ul.tag-list li a:hover {
+    background: #769704;
+}
+aside .widgets ul.tag-list {
+    margin: 0;
+    padding: 0;
+}
+
+aside h2 {
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 15px;
+    margin-bottom: 25px;
+    padding-bottom: 5px;
+    font-weight: 400;
+    position: relative;
+}
+
+aside h2:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /*width: 30px;*/
+    height: 1px;
+    background: #a0ce4e;
+}
+button.btn-custom{
+    background-color: #333333!important;
+    color: #FFFFFF;
+}
+button.btn-custom:hover{
+    background-color: #769704!important;
+}
+/*---------------------------------------CUSTOM CSS END-----------------------------------*/
+
 /*-------------------------------------------------*/
 /* =  Responsive Part
 /*-------------------------------------------------*/
@@ -1990,3 +2091,5 @@ footer p {
     margin-left: 0;
   }
 }
+
+
