@@ -10,7 +10,8 @@
                     <div class="services-post">
                         <img src="assets/upload/others/5.png" alt="">
                         <div class="services-content">
-                            <h2>Elegant Garden</h2>
+                            <h2>Understanding Ruby Procs and Lambdas</h2>
+                            <span class="post-date">Thursday, December 2, 2015</span>
                             <p>Aenean sed justo tincidunt, vulputate nisi sit amet, rutrum ligula. Pellentesque dictum aliquam ornare. Sed elit lectus.
                                Aenean Sed elit lectus.Aenean sed justo tincidunt, vulputate nisi sit amet, rutrum ligula. Pellentesque dictum aliquam ornare. Sed elit lectus.
                                Aenean Sed elit lectus.Aenean sed justo tincidunt, vulputate nisi sit amet, rutrum ligula. Pellentesque dictum aliquam ornare. Sed elit lectus.
@@ -25,7 +26,8 @@
                     <div class="services-post">
                         <img src="assets/upload/others/4.png" alt="">
                         <div class="services-content">
-                            <h2>Electricy installation</h2>
+                            <h2>FFProbe In PHP To Get Video File Info</h2>
+                            <span class="post-date">Thursday, December 2, 2015</span>
                             <p>Aenean sed justo tincidunt, vulputate nisi sit amet, rutrum ligula. Pellentesque dictum aliquam ornare.
                                Aenean Sed elit lectus.Aenean sed justo tincidunt, vulputate nisi sit amet, rutrum ligula. Pellentesque dictum aliquam ornare. Sed elit lectus.
                                Aenean Sed elit lectus.Aenean sed justo tincidunt, vulputate nisi sit amet, rutrum ligula. Pellentesque dictum aliquam ornare. Sed elit lectus.
